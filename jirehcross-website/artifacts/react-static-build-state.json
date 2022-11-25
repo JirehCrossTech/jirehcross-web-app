@@ -1,0 +1,62 @@
+{
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "productionSourceMaps": false,
+  "silent": false,
+  "entry": "index.js",
+  "plugins": [
+    [
+      "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\node_modules\\react-static-plugin-source-filesystem\\node.api.js",
+      {
+        "location": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\src\\pages"
+      }
+    ],
+    "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\node_modules\\react-static-plugin-reach-router\\browser.api.js",
+    "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\node_modules\\react-static-plugin-sitemap\\dist\\node.api.js",
+    "D:\\JirehCross\\JirehCross Website\\jirehcross-website"
+  ],
+  "paths": {
+    "ROOT": "D:\\JirehCross\\JirehCross Website\\jirehcross-website",
+    "SRC": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\src",
+    "DIST": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\dist",
+    "ASSETS": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\dist",
+    "PLUGINS": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\plugins",
+    "TEMP": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\tmp",
+    "ARTIFACTS": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\artifacts",
+    "PUBLIC": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\public",
+    "NODE_MODULES": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\node_modules",
+    "EXCLUDE_MODULES": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\node_modules",
+    "PACKAGE": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\package.json",
+    "HTML_TEMPLATE": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\dist\\index.html",
+    "STATIC_DATA": "D:\\JirehCross\\JirehCross Website\\jirehcross-website\\dist\\staticData"
+  },
+  "siteRoot": "/",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "babelExcludes": [],
+  "devServer": {
+    "host": "localhost",
+    "port": 3000
+  },
+  "terser": {
+    "terserOptions": {
+      "mangle": {},
+      "parse": {},
+      "compress": {},
+      "output": {}
+    }
+  }
+}
